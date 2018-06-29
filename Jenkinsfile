@@ -17,4 +17,4 @@
  * under the License.
  */
 
-asfMavenTlpPlgnBuild(maven:['3.0.x','3.2.x','3.5.x'])
+asfMavenTlpPlgnBuild()
