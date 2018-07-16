@@ -197,6 +197,10 @@ under the License.
                 <goal>site</goal>
               </goals>
               <settingsFile>src/it/settings.xml</settingsFile>
+              <properties>
+                <maven.compiler.source>${maven.compiler.source}</maven.compiler.source>
+                <maven.compiler.target>${maven.compiler.target}</maven.compiler.target>
+              </properties>
             </configuration>
             <executions>
               <execution>
